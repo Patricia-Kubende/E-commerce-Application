@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Eco-Friendly Clothing Store</h1>
+		    <!-- Search Bar and Filters -->
+    <section id="search-section">
+        <input type="text" id="search-bar" placeholder="Search for eco-friendly products..."> 
+        <button onclick="searchProducts()">Search</button>
+        
+        <!-- Filters -->
+        <div id="filters">
+            <label for="fabric-type">Fabric Type:</label>
+            <select id="fabric-type">
+                <option value="all">All</option>
+                <option value="organic-cotton">Organic Cotton</option>
+                <option value="recycled-fabric">Recycled Fabric</option>
+            </select>
+            <label for="price-range">Price Range:</label>
+            <input type="range" id="price-range" min="10" max="100">
+        </div>
+		<div id="product-list"></div>
+    </section>
+
+    <!-- Product Listings -->
+    <section id="product-listings">
+        <!-- This will be populated by JavaScript -->
+    </section>
+        
+    </header>
+    
+
+
+    <!-- Include JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

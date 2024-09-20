@@ -1,0 +1,7 @@
+id,name,description,price,fabric,certification,image
+1,Organic Cotton T-Shirt,Made from 100% organic cotton,25,Organic Cotton,Fair Trade,images/tshirt.jpg
+2,Organic Cotton T-Shirt,Made from 100% organic cotton,25,Organic Cotton,Fair Trade,images/tshirt2.jpg
+3,Recycled Fabric Jacket,Stylish jacket made from recycled fabric,75,Recycled Fabric,GOTS,images/jacket.jpg
+4,Recycled Fabric Jacket,Stylish jacket made from recycled fabric,75,Recycled Fabric,GOTS,images/jacket2.jpg
+5,Fair Trade Accessories,Handcrafted accessories from fair trade producers,15,Various,Fair Trade,images/accessories.jpg
+6,Fair Trade Accessories,Handcrafted accessories from fair trade producers,15,Various,Fair Trade,images/accessories2.jpg
